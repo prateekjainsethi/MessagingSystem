@@ -1,0 +1,41 @@
+Kakfa - linkding to kakfa
+Publish Subscriber System
+Storage System,
+Asycronous
+fault Intolrent
+
+consumer does not delete the data
+if consumer is down then data does not get deleted
+
+Producer does not know how many customer, consumer 
+
+A Kafka broker is a Kafka server that allows producers to stream data to consumers. The Kafka broker contains topics and their respective partitions. 
+A topic is data storage that groups similar data in a Kafka broker. 
+A partition is smaller data storage within a topic that consumers subscribe to. 
+ZooKeeper is special software that manages the Kafka clusters and partitions to provide fault-tolerant streaming. ZooKeeper has recently been replaced with the Apache Kafka Raft (KRaft) protocol.
+
+Disadvantage:-
+
+Topic -> Partition -> 
+
+
+In RabbitMQ, the producer sends and monitors if the message reaches the intended consumer. On the other hand,
+Kafka producers publish messages to the queue regardless of whether consumers have retrieved them.
+
+
+
+----------- --- -- Refrences -----------------
+https://aws.amazon.com/compare/the-difference-between-rabbitmq-and-kafka/
+---------------------------------------
+
+RabbitMQ -- 
+Point to Point
+Queue
+
+In RabbitMQ, a routing key is a message attribute that is used to route messages from an exchange to a specific queue.
+
+ActiveMQ --
+
+Exchanger/Broker
+consulmer delete the data
+
